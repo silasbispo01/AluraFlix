@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+:root {
+    --color-yellow: #FFEC43;
+    --color-gray-background: #373737;
+    --color-purple-: #662FDB;
+    --color-purple-second: #8a65da;
+    --white-: #FFF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P';
+    background-color: var(--color-gray-background);
+}
+
+nav {
+    margin-top: 50px;
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 48px;
+    color: var(--color-yellow);
+    text-shadow: black 4px 4px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.inputs p {
+    font-family: 'Fira Code';
+    font-size: 25px;
+    color: var(--white-);
+}
+
+#barraPesquisa {
+    margin-top: 22px;
+    border: black 4px solid;
+    box-shadow: black 4px 4px;
+    width: 420px;
+    height: 45px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'Press Start 2P';
+
+}
+
+#buttonPesquisa {
+    margin-top: 50px;
+    width: 420px;
+    height: 50px;
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    color:var(--white-);
+    background-color: var(--color-purple-);
+    box-shadow: black 4px 4px;
+    cursor: pointer;
+
+
+}
+
+.filmes {
+    margin-top: 100px;
+    height: 450px;
+    width: 100%;
+    overflow-x: scroll touch;
+    overflow: hidden;
+}
+
+.filmes ul,p {
+    list-style: none;
+    color: var(--color-purple-second);
+    text-shadow: black 2px 2px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.filmes img {
+
+    border: var(--color-purple-) 3px solid;
+    margin: 0 100px 0 100px;
+    box-shadow: black 4px 4px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+
+
+.filmes img:hover {
+    transform: scale(1.05)
+}
+
+footer {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 70px;
+}
+footer p {
+    margin-top: 20px;
+    font-size: 25px;
+    color: var(--white-)
+}
