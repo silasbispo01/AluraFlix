@@ -18,7 +18,8 @@
 
 body {
     font-family: 'Press Start 2P';
-    background-color: var(--color-gray-background);
+    background-image: url(/assets/img/background.jpeg);
+    /* background-color: var(--color-gray-background); */
 }
 
 nav {
@@ -85,7 +86,6 @@ nav h1 {
 .filmes-wrapper {
     position: relative;
     overflow: hidden;
-
 }
 .filmes-list {
     transform: translateX(0);
